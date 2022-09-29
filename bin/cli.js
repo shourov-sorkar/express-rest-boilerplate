@@ -43,3 +43,4 @@ console.log(`A boiler plate  by group of Software Engineer from Implevista`);
 const openCode = `cd ${repoName} && code .`;
 
 runCommand(openCode);
+if (!openCode) process.exit(-1);
